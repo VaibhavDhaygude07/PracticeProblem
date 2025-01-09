@@ -49,6 +49,7 @@
     <Compile Include="Factorial.cs" />
     <Compile Include="FriendsName.cs" />
     <Compile Include="Isprime.cs" />
+    <Compile Include="MoveZeroArray.cs" />
     <Compile Include="NextDay.cs" />
     <Compile Include="Number.cs" />
     <Compile Include="NumberPrint.cs" />
@@ -57,7 +58,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RandomNumber.cs" />
-    <Compile Include="ShiftZero.cs" />
+    <Compile Include="RepeatedElementInArray.cs" />
     <Compile Include="SquareSumDiff.cs" />
     <Compile Include="StringCheckPresent.cs" />
     <Compile Include="StudentGrade.cs" />
