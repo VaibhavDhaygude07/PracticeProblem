@@ -50,10 +50,6 @@ namespace PracticeProblem
 
             // ArrayAverage.Average();
 
-
-            //Write a Program to shift all zero to the end of array.
-            //(For Example: Input: 12 0 42 0 4
-            //Output: 12 42 4 0 0)
            // ShiftZero.MoveZero();
 
 
