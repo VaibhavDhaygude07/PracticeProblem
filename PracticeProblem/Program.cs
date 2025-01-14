@@ -50,11 +50,24 @@ namespace PracticeProblem
 
             // ArrayAverage.Average();
 
-           // MoveZeroArray.MoveZero();
+            // MoveZeroArray.MoveZero();
 
             //RepeatedElementInArray.ReapeatedElement();
 
+            //DeleteElementFromArray.DeleteElement();
 
+            //SecondLargest.SecondLargestElement();
+
+            // RemoveDuplicates.RemoveFromArray();
+
+            //SmallestGapInArray.FindSmallestGap();
+
+            // ConvertDayIntoYear.FindYearMonthWeek();
+
+            // SquarRoot.FindSquareRoot();
+
+            //Write a C# program to find prime numbers from 1 to 100.
+            PrimeNumber.FindPrimeNumber();
 
 
         }
