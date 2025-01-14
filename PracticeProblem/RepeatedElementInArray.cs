@@ -22,7 +22,7 @@ namespace PracticeProblem
                 {
                     if (arr[i] == arr[j])
                     {
-                        Console.WriteLine(arr[i]);
+                        Console.WriteLine("Reapeated element in array is "+arr[i]);
                         return;
                     }
                 }

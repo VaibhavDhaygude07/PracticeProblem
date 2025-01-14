@@ -11,24 +11,7 @@ namespace PracticeProblem
     {
         public static void RemoveFromArray()
         {
-                    // Write a C# Sharp program to remove all duplicate elements from a given array and returns a new array.
-                    //Test Data:
-                    // Original array elements:
-                    // 25
-                    //Anna
-                    //False
-                    //25
-                    //4 / 15 / 2021 12:10:51 PM
-                    //112.22
-                    //Anna
-                    //False
-
-                    //After removing duplicate elements from the said array:
-                    //25
-                    //Anna
-                    //False
-                    //4 / 15 / 2021 12:10:51 PM
-                    //112.22
+                  
             ArrayList array = new ArrayList();
             int x=25;
             string str = "Anna";
@@ -47,12 +30,30 @@ namespace PracticeProblem
             array.Add(str1);
             array.Add(value1);
 
-           // int[] distinct = array.Distinct().ToArray();
-
-            foreach (object i in array)
+            Console.WriteLine("Original ArrayList elements:");
+            foreach (var item in array)
             {
+                Console.WriteLine(item);
+            }
 
-                Console.WriteLine(i + " ");
+            
+            HashSet<object> uniqueSet = new HashSet<object>();
+            foreach (var item in array)
+            {
+                uniqueSet.Add(item);
+            }
+
+           
+            ArrayList uniqueList = new ArrayList();
+            foreach (var item in uniqueSet)
+            {
+                uniqueList.Add(item);
+            }
+
+            Console.WriteLine("After removing duplicate elements from the ArrayList:");
+            foreach (var item in uniqueList)
+            {
+                Console.WriteLine(item);
             }
 
         }

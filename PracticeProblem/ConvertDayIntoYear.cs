@@ -16,7 +16,7 @@ namespace PracticeProblem
 
             int year, month, weeks;
             year = day / 365;
-            month = day / 12;
+            month = day /30;
             weeks = day / 7;
 
             Console.WriteLine("Years:" + year + "\n month: " + month + "\n weeks:" + weeks);

@@ -62,12 +62,11 @@ namespace PracticeProblem
 
             //SmallestGapInArray.FindSmallestGap();
 
-            // ConvertDayIntoYear.FindYearMonthWeek();
+             //ConvertDayIntoYear.FindYearMonthWeek();
 
             // SquarRoot.FindSquareRoot();
 
-            //Write a C# program to find prime numbers from 1 to 100.
-            PrimeNumber.FindPrimeNumber();
+           // PrimeNumber.FindPrimeNumber();
 
 
         }
