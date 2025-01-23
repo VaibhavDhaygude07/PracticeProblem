@@ -46,9 +46,9 @@ namespace PracticeProblem
 
             //NumberToString.FindFactor();
 
-            //StringCheckPresent.StringCheck();
+            // StringCheckPresent.StringCheck();
 
-            // ArrayAverage.Average();
+            //ArrayAverage.Average();
 
             // MoveZeroArray.MoveZero();
 
@@ -62,13 +62,23 @@ namespace PracticeProblem
 
             //SmallestGapInArray.FindSmallestGap();
 
-             //ConvertDayIntoYear.FindYearMonthWeek();
+            //ConvertDayIntoYear.FindYearMonthWeek();
 
             // SquarRoot.FindSquareRoot();
 
-           // PrimeNumber.FindPrimeNumber();
+            // PrimeNumber.FindPrimeNumber();
 
+            // Isprime.PrimeNumber();
 
+            // LoginSystem.LoginPage();
+
+            //Calculator.Operations();
+
+            //AQI.FindAQI();
+
+            // RockPaperScissor.Game();
+
+            // LibraryBookFine.FindFine();
         }
     }
 }

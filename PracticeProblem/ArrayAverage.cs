@@ -17,8 +17,16 @@ namespace PracticeProblem
             Console.WriteLine("Enter array element: ");
             for (int i = 0; i < arr.Length; i++)
             {
-                string array = Console.ReadLine();
-                arr[i] = Convert.ToSingle(array);
+                try
+                {
+                    string array = Console.ReadLine();
+                    arr[i] = Convert.ToSingle(array);
+                }
+                catch(Exception e)
+                {
+                    Console.WriteLine(e.Message); 
+                }
+               
             }
             for (int i = 0; i < arr.Length; i++)
             {

@@ -10,9 +10,11 @@ namespace PracticeProblem
     {
         public static void StringCheck()
         {
+            
             Console.WriteLine("Enter a string: ");
-            string str = Console.ReadLine();
-
+           
+               string  str = Console.ReadLine();
+           
             if (str.Contains('a') && str.Contains('e') && str.Contains('p'))
             {
                 Console.WriteLine("All Present");

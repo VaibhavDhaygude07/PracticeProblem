@@ -13,32 +13,32 @@ namespace PracticeProblem
             int[] arr = new int[5];
             Console.WriteLine("Enter the element of array: ");
             int length = arr.Length;
-            int count = 0;
-            for (int i = 0; i < length - 1; i++)
+            
+            for (int i = 0; i < length; i++)
             {
-                string arrayInput = Console.ReadLine();
-                arr[i] = Convert.ToInt32(arrayInput);
-            }
-            for (int i = 0; i < length - 1; i++)
-            {
-                for (int j = 2; j < arr[i] / 2; j++)
+                try
                 {
-                    if (arr[i] % j == 0)
-                    {
-                        count = 1;
-                    }
+                    string arrayInput = Console.ReadLine();
+                    arr[i] = Convert.ToInt32(arrayInput);
 
-
+                   
                 }
-                if (count == 0)
+                catch(Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                    //throw e;
+                }
+               
+            }
+            Console.WriteLine("Prime number: ");
+            for(int i=0; i<arr.Length; i++)
+            {
+                if (arr[i] % 2 == 0)
                 {
                     Console.WriteLine(arr[i]);
                 }
-                else
-                {
-                    Console.WriteLine(arr[i]);
-                }
             }
+           
         }
     }
 }

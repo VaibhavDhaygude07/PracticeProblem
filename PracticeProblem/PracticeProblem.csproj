@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AQI.cs" />
     <Compile Include="ArrayAverage.cs" />
+    <Compile Include="Calculator.cs" />
     <Compile Include="Circle.cs" />
     <Compile Include="CityName.cs" />
     <Compile Include="ConvertDayIntoYear.cs" />
@@ -51,6 +53,8 @@
     <Compile Include="Factorial.cs" />
     <Compile Include="FriendsName.cs" />
     <Compile Include="Isprime.cs" />
+    <Compile Include="LibraryBookFine.cs" />
+    <Compile Include="LoginSystem.cs" />
     <Compile Include="MoveZeroArray.cs" />
     <Compile Include="NextDay.cs" />
     <Compile Include="Number.cs" />
@@ -63,6 +67,7 @@
     <Compile Include="RandomNumber.cs" />
     <Compile Include="RemoveDuplicates.cs" />
     <Compile Include="RepeatedElementInArray.cs" />
+    <Compile Include="RockPaperScissor.cs" />
     <Compile Include="SecondLargest.cs" />
     <Compile Include="SmallestGapInArray.cs" />
     <Compile Include="SquareSumDiff.cs" />
