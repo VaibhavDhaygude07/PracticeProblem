@@ -79,6 +79,8 @@ namespace PracticeProblem
             // RockPaperScissor.Game();
 
             // LibraryBookFine.FindFine();
+
+            PositiveNumber.PositiveNum();
         }
     }
 }

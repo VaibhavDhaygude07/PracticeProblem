@@ -60,6 +60,7 @@
     <Compile Include="Number.cs" />
     <Compile Include="NumberPrint.cs" />
     <Compile Include="NumberToString.cs" />
+    <Compile Include="PositiveNumber.cs" />
     <Compile Include="PrimeNumber.cs" />
     <Compile Include="PrintNumber.cs" />
     <Compile Include="Program.cs" />
