@@ -52,6 +52,7 @@
     <Compile Include="DeleteElementFromArray.cs" />
     <Compile Include="Factorial.cs" />
     <Compile Include="FriendsName.cs" />
+    <Compile Include="IntegerLoop.cs" />
     <Compile Include="Isprime.cs" />
     <Compile Include="LibraryBookFine.cs" />
     <Compile Include="LoginSystem.cs" />
