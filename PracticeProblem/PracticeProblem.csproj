@@ -76,6 +76,7 @@
     <Compile Include="StringCheckPresent.cs" />
     <Compile Include="StudentGrade.cs" />
     <Compile Include="TemperatureConversion.cs" />
+    <Compile Include="TemperatureConversion2.cs" />
     <Compile Include="TicketPrice.cs" />
     <Compile Include="WithoutLoop.cs" />
   </ItemGroup>
