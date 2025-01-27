@@ -85,8 +85,8 @@ namespace PracticeProblem
             //TemperatureConversion2.Conversion();
 
             // IntegerLoop.Loop();
-            
 
+            HeightCategory.Category();
         }
     }
 }
