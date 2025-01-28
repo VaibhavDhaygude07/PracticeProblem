@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net.NetworkInformation;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using static System.Net.Mime.MediaTypeNames;
@@ -86,7 +87,12 @@ namespace PracticeProblem
 
             // IntegerLoop.Loop();
 
-            HeightCategory.Category();
+            //HeightCategory.Category();
+
+            //CheckOperator.Operator();
+
+
+
         }
     }
 }
