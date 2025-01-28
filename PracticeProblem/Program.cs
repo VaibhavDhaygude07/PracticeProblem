@@ -91,6 +91,7 @@ namespace PracticeProblem
 
             //CheckOperator.Operator();
 
+            //SquarOfArray.Array();
 
 
         }

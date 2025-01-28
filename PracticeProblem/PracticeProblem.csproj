@@ -75,6 +75,7 @@
     <Compile Include="SecondLargest.cs" />
     <Compile Include="SmallestGapInArray.cs" />
     <Compile Include="SquareSumDiff.cs" />
+    <Compile Include="SquarOfArray.cs" />
     <Compile Include="SquarRoot.cs" />
     <Compile Include="StringCheckPresent.cs" />
     <Compile Include="StudentGrade.cs" />
