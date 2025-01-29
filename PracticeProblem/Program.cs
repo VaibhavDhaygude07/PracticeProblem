@@ -96,6 +96,7 @@ namespace PracticeProblem
 
             //TimeConversion.Conversion();
 
+            InheritanceDemo.Inheritance();
         }
     }
 }
