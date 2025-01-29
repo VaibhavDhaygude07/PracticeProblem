@@ -82,6 +82,7 @@
     <Compile Include="TemperatureConversion.cs" />
     <Compile Include="TemperatureConversion2.cs" />
     <Compile Include="TicketPrice.cs" />
+    <Compile Include="TimeConversion.cs" />
     <Compile Include="WithoutLoop.cs" />
   </ItemGroup>
   <ItemGroup>
