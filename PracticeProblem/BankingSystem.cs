@@ -65,10 +65,6 @@ namespace PracticeProblem
                 Console.WriteLine("Enter valid number");
             }
 
-
-
-              
-
         }
         
     }
