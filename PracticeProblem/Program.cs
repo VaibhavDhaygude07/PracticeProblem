@@ -96,7 +96,14 @@ namespace PracticeProblem
 
             //TimeConversion.Conversion();
 
-            InheritanceDemo.Inheritance();
+            //InheritanceDemo.Inheritance();
+
+            //Create an object-oriented model for a banking system that supports various account types (e.g., savings, checking).
+            //Implement transactional operations like
+            //deposits, withdrawals, and transfers between accounts. Use inheritance to represent different account types and
+            //encapsulation to protect sensitive information.
+
+            BankingSystem.Account(); 
         }
     }
 }

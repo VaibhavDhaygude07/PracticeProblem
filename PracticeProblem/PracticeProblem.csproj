@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="AQI.cs" />
     <Compile Include="ArrayAverage.cs" />
+    <Compile Include="BankingSystem.cs" />
     <Compile Include="Calculator.cs" />
     <Compile Include="CheckOperator.cs" />
     <Compile Include="Circle.cs" />
