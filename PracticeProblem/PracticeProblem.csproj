@@ -76,6 +76,7 @@
     <Compile Include="RockPaperScissor.cs" />
     <Compile Include="SecondLargest.cs" />
     <Compile Include="SmallestGapInArray.cs" />
+    <Compile Include="SortingListUsingLambda.cs" />
     <Compile Include="SquareSumDiff.cs" />
     <Compile Include="SquarOfArray.cs" />
     <Compile Include="SquarRoot.cs" />
